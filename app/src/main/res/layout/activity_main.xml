@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.MainActivity"
+    android:background="@color/colorBackground">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:text="Logout" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notifications"
+        android:textColor="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="24sp"
+
+
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/notificationRV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/logout"
+        android:layout_margin="3dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="-55dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="3dp"
+        android:padding="3dp"
+        tools:listitem="@layout/notification_rv_item" />
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/idFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/colorBackground"
+        android:src="@drawable/baseline_add_24"
+        app:tint="@color/white" />
+
+</RelativeLayout>

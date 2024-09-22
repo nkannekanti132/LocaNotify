@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "848626828772",
+    "project_id": "locanotify-60c21",
+    "storage_bucket": "locanotify-60c21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848626828772:android:d55101cb25a46e2a62f3f1",
+        "android_client_info": {
+          "package_name": "com.example.locanotify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjV90ncSBsvbIrCTEuBc9QHwMX5Dwlzwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
